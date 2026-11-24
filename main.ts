@@ -1,11 +1,11 @@
-// One-Line Roast: The Gadget You Use Every Day (variant A)
+// One-Line Roast: The Gadget You Use Every Day (variant A — chosen)
 // Writes exactly one roast line to /output/entry.txt.
 // Node 22, erasable-only TypeScript, no dependencies, no network, deterministic.
 
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const LINE =
-  "My left AirPod dies at 7% while the right one smugly reports 94% — even my headphones have a favourite child.";
+  "My printer only jams on documents that actually matter — it can smell a deadline the way a dog smells fear.";
 
 // Validates the roast line against the competition gate before writing:
 // exactly one line, 1–200 characters, not only whitespace.
